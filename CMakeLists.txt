@@ -1,0 +1,11 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.7)
+PROJECT(EulerProject)
+
+SET(CMAKE_CXX_STANDARD 17)
+
+ADD_SUBDIRECTORY(Problems)
+
+SET(SOURCE_FILES ProjectEuler_Main.cpp)
+ADD_EXECUTABLE(EulerProject ${SOURCE_FILES})
+TARGET_LINK_LIBRARIES(EulerProject
+                      Problems)
