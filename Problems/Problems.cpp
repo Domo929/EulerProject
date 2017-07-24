@@ -2,8 +2,7 @@
 // Created by djcupo on 7/24/17.
 //
 
-#include <vector>
-#include <iostream>
+
 #include "Problems.hpp"
 
 bool problemOne(){

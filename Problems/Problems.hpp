@@ -5,6 +5,9 @@
 #ifndef EULERPROJECT_PROBLEMS_HPP
 #define EULERPROJECT_PROBLEMS_HPP
 
+#include <vector>
+#include <iostream>
+
 bool problemOne();
 
 #endif //EULERPROJECT_PROBLEMS_HPP
